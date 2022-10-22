@@ -1,11 +1,10 @@
-let forg = document.getElementById('forget');
-forg.addEventListener('click', function run() {
-    alert("check ur email");
+let forget = document.getElementById('forget');
+forget.addEventListener('click', () => {
+    alert("Mujhe maloom nhi .");
 })
 let btn = document.getElementById('button');
-btn.addEventListener('click', function run() {
-    alert("LogIn Success!!!!")
-
+btn.addEventListener('click', () => {
+    alert("LogIn failed..!")
 })
 
 
